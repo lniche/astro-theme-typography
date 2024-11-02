@@ -71,7 +71,20 @@ export const defaultConfig: ThemeConfig = {
     link: [],
   },
   comment: {
-    // disqus: { shortname: "typography-astro" },
+    giscus: {
+      repo: 'lniche/astro-theme-typography',
+      repoId: 'R_kgDOM07Cyw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOM07Cy84Cj6Au',
+      mapping: 'title',
+      strict: '0',
+      reactionsEnabled: '1',
+      emitMetadata: '0',
+      inputPosition: 'top',
+      theme: 'light',
+      lang: 'zh-CN',
+      loading: 'lazy'
+    }
   },
   rss: {
     fullText: true,
