@@ -6,7 +6,7 @@ import type { ThemeConfig } from '~/types'
 export const defaultConfig: ThemeConfig = {
   site: {
     title: '青山 常在',
-    subtitle: 'Always Standing',
+    subtitle: '',
     author: 'qingshan',
     description: 'Rediscory the beauty of typography',
     website: 'https://astro-theme-typography.pages.dev',
