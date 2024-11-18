@@ -5,7 +5,7 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: 'Green hills last forever',
+    title: '青山常在',
     subtitle: '',
     author: 'qingshan',
     description: 'Rediscory the beauty of typography',
@@ -83,8 +83,8 @@ export const defaultConfig: ThemeConfig = {
       inputPosition: 'top',
       theme: 'light',
       lang: 'zh-CN',
-      loading: 'lazy'
-    }
+      loading: 'lazy',
+    },
   },
   rss: {
     fullText: true,
